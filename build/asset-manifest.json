@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Clintronix/static/css/main.00c6b7c6.chunk.css",
+    "main.js": "/Clintronix/static/js/main.4f7c0077.chunk.js",
+    "main.js.map": "/Clintronix/static/js/main.4f7c0077.chunk.js.map",
+    "runtime-main.js": "/Clintronix/static/js/runtime-main.cec47a7a.js",
+    "runtime-main.js.map": "/Clintronix/static/js/runtime-main.cec47a7a.js.map",
+    "static/js/2.99f90c11.chunk.js": "/Clintronix/static/js/2.99f90c11.chunk.js",
+    "static/js/2.99f90c11.chunk.js.map": "/Clintronix/static/js/2.99f90c11.chunk.js.map",
+    "static/js/3.bf5f7d68.chunk.js": "/Clintronix/static/js/3.bf5f7d68.chunk.js",
+    "static/js/3.bf5f7d68.chunk.js.map": "/Clintronix/static/js/3.bf5f7d68.chunk.js.map",
+    "index.html": "/Clintronix/index.html",
+    "static/css/main.00c6b7c6.chunk.css.map": "/Clintronix/static/css/main.00c6b7c6.chunk.css.map",
+    "static/js/2.99f90c11.chunk.js.LICENSE.txt": "/Clintronix/static/js/2.99f90c11.chunk.js.LICENSE.txt",
+    "static/media/CSS3Img.4e67641b.png": "/Clintronix/static/media/CSS3Img.4e67641b.png",
+    "static/media/HTML5Img.23784160.png": "/Clintronix/static/media/HTML5Img.23784160.png",
+    "static/media/JavaScript.0efdef26.png": "/Clintronix/static/media/JavaScript.0efdef26.png",
+    "static/media/Me.07572a3b.jpg": "/Clintronix/static/media/Me.07572a3b.jpg",
+    "static/media/cloudy.9f607d0a.png": "/Clintronix/static/media/cloudy.9f607d0a.png",
+    "static/media/partlycloudy.a5642bc9.png": "/Clintronix/static/media/partlycloudy.a5642bc9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cec47a7a.js",
+    "static/js/2.99f90c11.chunk.js",
+    "static/css/main.00c6b7c6.chunk.css",
+    "static/js/main.4f7c0077.chunk.js"
+  ]
+}
