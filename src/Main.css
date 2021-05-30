@@ -1,6 +1,6 @@
 .content {
   height: 80vh;
-  background-color: rebeccapurple;
+  background-color: white;
 }
 
 .Nav {
@@ -15,7 +15,9 @@ nav button {
     right: 150px; 
     border: none;
     padding: 1rem;
+    border-radius: 30%;
  }
+
 
  btn.active {
      transform: translateX(-150px);
@@ -174,5 +176,4 @@ nav a {
       transform: translateY(105vh);
     }
   }
-  
   

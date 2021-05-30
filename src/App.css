@@ -17,37 +17,40 @@
   display: flex;
   align-content: center;
   justify-content: left;
-  height: 20vh;
+  height: 10vh;
   width: 100%;
   background-color: #282c34;
   color: white;
+  align-items: center;
 }
 .header h1 {
-  font-family: 'Times New Roman', Times, serif;
   margin-left: 20px;
   font-size: 3rem;
-  padding: 10px;
-  margin-top: 30px;
 }
 
 /* for the info boxes */
 #content-boxes {
-  background-color: rebeccapurple;
+  background-color:white;
   display: flex; 
   padding: 20px;
   justify-content: center;
   align-content: center;
+  
 }
 @media screen and (max-width: 700px) {
   #content-boxes {
     flex-flow: column wrap;
   }
 }
+#info-box-with-picture {
+  overflow: visible;
+  line-height: 1.5rem;
+}
 
 #info-box-picture {
   font-size: 200px;
   position: relative;
-  top: -120px;
+  top: -100px;
   border-radius: 100%;
 }
 
@@ -57,7 +60,6 @@
 
 .info-box p {
   padding: 10px;
-  line-height: 2rem;
 }
 
 
@@ -70,7 +72,11 @@
   width: 16rem;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 10px 20px black;
+  box-shadow: 0px 10px 20px rebeccapurple;
+  overflow: hidden;
+}
+.info-box h2 {
+  line-height: 2px;
 }
 
 .info-box.small {
@@ -79,7 +85,7 @@
 }
 
 .info-box.medium {
-   width: 40rem;
+   width: 35rem;
   height: 20rem;
 }
 
@@ -103,10 +109,10 @@
   }
   75% {
       transform: translate(0px, -10px);
-      box-shadow: 0px 20px 50px black;
+      box-shadow: 0px 20px 50px rebeccapurple;
   }
   100% {
      transform: translate(0px, -5px);
-      box-shadow: 0px 15px 30px black;
+      box-shadow: 0px 15px 30px rebeccapurple;
   }
 }

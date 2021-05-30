@@ -10,7 +10,7 @@ function Home() {
   return (
       <div>
       <div id="content-boxes">
-        <div class="info-box large img">
+        <div class="info-box large img" id="info-box-with-picture">
           <img id="info-box-picture" src={ Me } height="200" width="200" />
           <h3>Hi, my name is Clinton</h3>  
           <p>I started learning Computer Science in June 2019. First I learned HTML/CSS and javaScript 
@@ -32,17 +32,17 @@ function Home() {
         </div>
       </div>
       <div id="content-boxes">
-        <div class="info-box large">
-          <h3>Projects</h3>  
-          <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-          </ul>
+        <div class="info-box">
+          {/* add react */}
+          <img src={ HTML } height="120" width="150"/> 
         </div>
+          <div class="info-box">
+            {/* add python! */}
+          <img src={ CSS } height="120" width="150"/> 
+        </div>
+        
       </div>
+        
       </div>
 
     

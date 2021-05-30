@@ -22,7 +22,7 @@ class Main extends Component {
         <HashRouter>
         <div className="Nav">
             <nav id="nav">
-            <button id="btn">=</button>
+            <button id="btn">☰</button>
               <ul>
                   <li><NavLink exact to="/">Home</NavLink></li>
                   <li><NavLink to="/Projects">Projects</NavLink></li>

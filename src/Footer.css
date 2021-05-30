@@ -2,16 +2,40 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    height: 10vh !important;
+    height: 10vh;
     background-color: #282c3454;
-    color: white;
+    color: white; 
     display: flex;
-    justify-content: center;
+    align-content: center;
 }
 
-button {
+.left {
+    position: relative;
+    left: 0px;
+
+}
+
+footer button {
+    box-shadow: 10px 10px 30px white;
     padding: 5px;
     display: block;
-    margin-left: 10px;
+    margin: 15px;
     border-radius: 50px;
 }
+
+footer #contacts {
+    width: 20rem;
+    color: red;
+    display:block;
+    transform: translateY(150px);
+    transition: transform 1s ease-in-out;
+
+}
+
+#contacts a{
+    color: white;
+}
+
+#contacts.active {
+    transform: translateY(0);
+  }

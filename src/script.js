@@ -11,7 +11,13 @@ window.onload = function() {
     btn.addEventListener('click', () => {
         nav.classList.toggle("active");
         btn.classList.toggle("active");
-        change();
+        if (btn.innerHTML !== "X") {
+            btn.innerHTML = "X";
+        } else {
+            btn.innerHTML = "☰";
+        }
+        
+        activeAnimation();
     })
 
     //Falling Hearts 
@@ -32,7 +38,7 @@ window.onload = function() {
     //turns heart interval on or off
     let interval;
 
-    function change() {
+    function activeAnimation() {
         if (!interval) {
             interval = setInterval(createHeart, 100);
         } else {
@@ -40,7 +46,10 @@ window.onload = function() {
             interval = null;
         }
   }
-
+  document.getElementById("open-contacts").addEventListener('click', () => {
+    document.getElementById("contacts").classList.toggle("active");
+    console.log("this works")
+  })
 //   //random colors for BG
 //   function randomBg() {
 //     let colorHEX = "";
